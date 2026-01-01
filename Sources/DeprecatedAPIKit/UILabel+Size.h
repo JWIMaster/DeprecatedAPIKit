@@ -5,4 +5,6 @@
 
 - (CGSize)sizeWithFont:(UIFont *)font constrainedToSize:(CGSize)size lineBreakMode:(NSLineBreakMode)lineBreakMode;
 
+- (CGSize) sizeWithFont:(UIFont *) font;
+
 @end
