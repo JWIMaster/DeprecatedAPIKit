@@ -7,16 +7,6 @@
     return [self.text sizeWithFont:font constrainedToSize:size lineBreakMode:lineBreakMode];
 }
 
-- (CGSize) sizeWithFont:(UIFont *) font {
-    return [self.text sizeWithFont:font];
-}
-
 @end
 
-@implementation NSString (Size)
 
-- (CGSize) sizeWithFont:(UIFont *) font {
-    return [self sizeWithFont:font];
-}
-
-@end
