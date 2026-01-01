@@ -8,3 +8,10 @@
 - (CGSize) sizeWithFont:(UIFont *) font;
 
 @end
+
+
+@interface NSString (Size)
+
+- (CGSize) sizeWithFont:(UIFont *) font;
+
+@end

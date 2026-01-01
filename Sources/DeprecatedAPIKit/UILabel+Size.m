@@ -12,3 +12,11 @@
 }
 
 @end
+
+@implementation NSString (Size)
+
+- (CGSize) sizeWithFont:(UIFont *) font {
+    return [self sizeWithFont:font];
+}
+
+@end
